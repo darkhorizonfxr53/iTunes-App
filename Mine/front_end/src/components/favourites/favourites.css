@@ -1,0 +1,29 @@
+/* Style the button and spacer */
+.favourites-container .back-btn,
+.favourites-container .spacer {
+   width: 120px;
+}
+
+/* Style the favourites container */
+.favourites {
+   padding: 90px 60px 30px;
+}
+
+/* Style the text that will show if 'favourites' is empty */
+.favourites .empty {
+   width: 100%;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+}
+
+/* Style the container with all the favourites if 'favourites' is not empty */
+.fav-items {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}

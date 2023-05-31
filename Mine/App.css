@@ -1,0 +1,7 @@
+/*App styling */
+.App {
+    text-align: center;
+    font-size: 28px;
+    background-color:darkcyan;
+    min-height: 150vh;
+}

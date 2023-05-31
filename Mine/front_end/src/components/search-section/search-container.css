@@ -1,0 +1,37 @@
+/* Style search container */
+.search-container {
+   background-color: white;
+   width: 65%;
+   margin: auto;
+   padding: 15px;
+   border-radius: 25px;
+   box-shadow: 0 5px 5px 0 #00000030;
+   border: currentColor;
+}
+
+/* Style the form */
+form {
+   width: 75%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+}
+
+/* Style the search box */
+.search-box {
+   width: 45%;
+   max-width: 350px;
+}
+
+/* Style the dropdown */
+.filter {
+   width: 30%;
+   max-width: 200px;
+}
+
+/* Style the submit button */
+.submit-btn .btn {
+   width: 100px;
+}

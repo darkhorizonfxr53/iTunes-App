@@ -1,0 +1,24 @@
+/* Style the overall sidebar */
+.offcanvas-start {
+   min-width: 500px;
+}
+
+/* Style the title of the sidebar */
+.offcanvas-start .offcanvas-title {
+   font-size: 25px;
+}
+
+/* Style the title of each section */
+.offcanvas-start .title {
+   font-weight: 500;
+}
+
+/* Style the heart and trash icons */
+.help-add-fav .fa-heart {
+   color: #00000035;
+}
+
+.help-remove-fav .fa-trash,
+.help-remove-fav-home .fa-heart {
+   color: red;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "itunes",
+  "version": "1.0.0",
+  "description": "an Application that uses the iTunes API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkhorizonfxr53/iTunes-App-frontend-and-backend.git"
+  },
+  "keywords": [
+    "iTunes",
+    "search"
+  ],
+  "author": "Amadou Sow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkhorizonfxr53/iTunes-App-frontend-and-backend/issues"
+  },
+  "homepage": "https://github.com/darkhorizonfxr53/iTunes-App-frontend-and-backend#readme"
+}
