@@ -1,0 +1,61 @@
+/* Style the overall item */
+.fav-item {
+   display: flex;
+   align-items: center;
+   width: 45%;
+   background-color: #ffffffd8;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 0 5px 5px 0 #00000030;
+   border: currentColor;
+   gap: 15px;
+}
+
+/* Style the text that will be displayed if there is no artwork */
+.fav-item .img-text {
+   width: 100px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #00000030;
+}
+
+/* Style the item info section */
+.fav-item .item-info {
+   width: 100%;
+   text-align: left;
+   font-size: 14px;
+}
+
+/* Style the labels of the item */
+.fav-item .item-info span {
+   font-weight: 500;
+}
+
+/* Style the container with the buttons */
+.fav-item .btns {
+   width: 130px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+/* Style the trash icon */
+.fav-item .remove-btn button {
+   background-color: transparent;
+   border: none;
+   font-size: 25px;
+   color: red;
+}
+
+.fav-item .remove-btn button:hover {
+   color: #c40000;
+   background-color: transparent;
+}
+
+/* Style the button that helps you view more info about the item */
+.fav-item .view-more-btn button {
+   padding: 0px 5px;
+   font-size: 14px;
+}

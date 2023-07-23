@@ -1,0 +1,16 @@
+/* Style the header */
+.header-section {
+   width: 100%;
+   background-color: #171b16;
+   position: fixed;
+}
+
+/* Style the search and output section */
+.search-and-output {
+   padding: 85px 60px 30px;
+}
+
+/* Style the search section */
+.search-container-section {
+   margin-bottom: 15px;
+}

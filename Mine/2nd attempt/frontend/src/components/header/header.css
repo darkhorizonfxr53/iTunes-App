@@ -1,0 +1,22 @@
+/* Style the header container */
+.header-container {
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 90px;
+}
+
+/* Style the header buttons */
+.header-container .btn,
+.header-container .btn a {
+   width: 120px;
+   font-size: 17px;
+   text-decoration: none;
+   color: #fff;
+}
+
+/* Style the heading within the header */
+.header-container .header {
+   font-size: 28px;
+}
